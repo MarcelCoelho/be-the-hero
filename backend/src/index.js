@@ -9,7 +9,7 @@ Metods HTTP:
 Tipos de parametros
    * Query params: parametro nomeados enviado na rota após  "?" (filtro, paginação)
    * Route params: identificar recursos users/:id
-   * Request body: corpo da requisição, utilizado para criar ou alterar recursos
+   * Request body: corpo das requisições, utilizado para criar ou alterar recursos
 */
 
 /*
