@@ -14,7 +14,7 @@ function NewIncident() {
     const [value, setValue] = useState('');
 
     const history = useHistory();
-    const ongId = localStorage.getItem('ondId');
+    const ongId = localStorage.getItem('ongId');
 
     async function handleNewIncident(e) {
         e.preventDefault();
