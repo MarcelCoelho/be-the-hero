@@ -22,8 +22,7 @@ module.exports = {
                 'ongs.uf'
             ]);
 
-        response.header('X-Total-Count', count['count(*)']);
-
+        response.header('x-total-count', count['count(*)']);
         return response.json(incidents);
     },
 
@@ -31,7 +30,7 @@ module.exports = {
         const { title, description, value } = request.body;
 
         const ong_id = request.headers.authorization;
-
+        
         const [id] = await connection('incidents').insert({
             title,
             description,
