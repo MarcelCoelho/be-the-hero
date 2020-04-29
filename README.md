@@ -56,7 +56,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
   $ git clone https://github.com/MarcelCoelho/be-the-hero/
 
   # Ingressar no diretório do módulo específico
-  $ cddddd <folder-name-module>
+  $ cd <folder-name-module>
 
   # Instalar todas as dependências do projeto
   $ yarn install
